@@ -1,0 +1,174 @@
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(136.56deg, #8a53b6 0%, #cea2d0 97.42%);
+    font-family: "Inter","LatoWeb",'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.content__zone {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    
+    min-height: 680px;
+    margin: 64px 0 26px;
+    padding: 42px;
+    background: #f3f4f6;
+    border-radius: 24px;
+    box-shadow: 0 0 14px rgba(0,0,0,0.2);
+}
+
+.left__side__wrapper, .right__side {
+    flex: 1;
+}
+
+.monobank__logo, .jar__bg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.jar__bg {
+    width: 215px;
+}
+
+.jar, .scale, .emblem {
+    position: absolute;
+    
+    
+}
+
+.jar {
+    top: 156px;
+    left: 216px;
+}
+
+.scale {
+    top: 190px;
+    left: 230px;
+}
+
+.emblem {
+    width: 56px;
+    border-radius: 50%;
+    top: 300px;
+    left: 320px;
+}
+
+.target__description {
+    text-align: center;
+    margin-top: 18px;
+    
+    
+}
+
+.target__description__title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.stat {
+    display: flex;
+    background:#fff;
+    border-radius: 16px;
+    padding: 6px 10px;
+    margin: 20px 40px 0;
+}
+
+.accumulated {
+    flex: 1;
+    margin-right: 10px;
+    background-image: url(/images/collected.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-right: solid #ccc 0.5px;
+}
+
+.target {
+    flex: 1;
+    background-image: url(/images/target.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+
+.stat__details__text, .stat__details__sum {
+    margin-left: 30px;
+    line-height: 0.2rem;
+    padding: 0 10px;
+}
+
+
+.stat__details__text {
+    color: #808080;
+}
+
+
+.gradient__container {
+    background: linear-gradient(92.12deg, #57b5f9 0%, #da11ba 100%);
+    border-radius: 24px;
+    width: 398px;
+    padding: 3px;
+    margin: 0 auto;
+}
+
+.card__amount__container {
+    background-color: #fff;
+    border-radius: 21px;
+    padding: 20px;
+}
+
+.amount__title__wripper {
+    padding: 0 100px;
+}
+
+.amount__title {
+    background-image: url(/images/money.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.amount__sum__wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+}
+
+.amount__sum, .amount__currency {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.amount__sum__button {
+    margin-top: 20px;
+    padding: 0 3px;
+    cursor: pointer;
+    width: 102px;
+    height: 46px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.amount__sum__button:not(:last-of-type) {
+    margin-right: 22px;
+}
+
+.footer__license {
+    color: #fff;
+    font-size: 16px;
+}
