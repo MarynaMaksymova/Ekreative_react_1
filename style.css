@@ -34,6 +34,10 @@ body {
     margin-bottom: 24px;
 }
 
+.jar-container {
+    position: relative;
+}
+
 .jar__bg {
     width: 215px;
 }
@@ -45,27 +49,25 @@ body {
 }
 
 .jar {
-    top: 156px;
-    left: 216px;
+    top: 16px;
+    left: 156px;
 }
 
 .scale {
-    top: 190px;
-    left: 230px;
+    top: 50px;
+    left: 170px;
 }
 
 .emblem {
     width: 56px;
     border-radius: 50%;
-    top: 300px;
-    left: 320px;
+    top: 150px;
+    left: 260px;
 }
 
 .target__description {
     text-align: center;
-    margin-top: 18px;
-    
-    
+    margin-top: 18px;   
 }
 
 .target__description__title {
